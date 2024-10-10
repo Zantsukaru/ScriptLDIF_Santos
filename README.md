@@ -1,4 +1,4 @@
-# SCRIPT_LDIF_Santos
+# SCRIPT LDIF
 Este es un script interactivo que realiza la creación de ficheros LDIF para ser añadidos a dominios con protocolo LDAP.
 
 # PRINCIPALES FUNCIONES
