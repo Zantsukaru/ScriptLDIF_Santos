@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# VARIABLE DE CONTROL PARA EL BUCLE
+opcion=0
+
 # FUNCIÓN PARA GENERAR UN ARCHIVO LDIF DE UNIDADES ORGANIZATIVAS
 generar_ou_ldif() {
     echo "Ingrese el nombre del archivo .ldif (sin la extensión):"
