@@ -95,7 +95,7 @@ generar_usuarios_ldif() {
 }
 
 # Menú principal
-while true; do
+while [ "$opcion" -ne 4]; do
     echo "----- MENÚ PRINCIPAL GENERADOR DE FICHEROS LDIF-----"
     echo "1. Crear Unidades Organizativas"
     echo "2. Crear Grupos"
